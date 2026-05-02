@@ -1,0 +1,692 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #0E1823;
+}
+.hero-section{
+    background-image: url('../image/Header.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.container{
+    max-width: 1340px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.containe_header{
+    width: min(1200px, calc(100% - 200px));
+    margin-inline: auto;
+}
+
+ /* #region Header */
+.header{
+
+    border: 1px solid #2b1616;
+    background: #FBFBFB;  
+    width: 1240px;
+    height: 48px;
+    display: flex;
+    gap: 375px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    border-radius: 8px;
+
+}
+.titele {
+color: #1B414B;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+padding-left: 30px;
+}
+
+.header_list {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+.list_iteams a {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:  #1B414B80;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #FBFBFB;
+    text-decoration: none;
+}
+.list_iteams a:hover{
+    background-color: #1B414B;
+    transition: 0.3s;
+}
+
+.list_social {
+    display: flex;
+    gap: 8px;
+    padding-right: 30px;
+}
+
+/* #endregion header */
+
+/* #region hero section */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.hero_title {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px; /* 100% */
+    letter-spacing: -1.6px;
+    max-width: 1001px;
+    height: 160px;
+    padding-top: 155px;
+   
+}
+.hero_items {
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 22.4px */
+    width: 597px;
+    height: 66px;
+    margin-top: -24px;
+    padding: 1px;
+}
+.hero_btn {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+
+    border-radius: 15px;
+    background: #1B414B;
+    padding: 16px 40px;
+    border: none;
+    margin-top: 64px;
+}
+.hero_btn:hover{
+    background: #FBFBFB;
+    color: #1B414B;
+    transition: 0.6s;
+}
+
+/* #endregion hero section */
+
+
+/* #region about section */  
+
+
+
+
+#about{
+    display: block;
+    height: 675px;
+    background-color: #FBFBFB;
+     border-radius: 24px;
+     padding: 0px;
+
+
+}
+.about_flex {
+    box-sizing: border-box;
+    display: flex;
+    gap: 299px;
+    padding-bottom: 100px;
+}
+.about_title {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 537px;
+
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    letter-spacing: -0.96px;
+}
+.about_flex_text {
+    padding-right: 50px;
+    padding-top: 50px; 
+    width: 404px;
+    height: 185px;
+    gap: 20px;
+}
+.about_subtitle {
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 23px */
+    letter-spacing: -0.46px;
+}
+.about_items {
+    color: #999899;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 14.95px */
+    letter-spacing: -0.26px;
+    padding-top: 20px;
+
+}
+.about__img {
+    height: 470px;
+    width: 1340px;
+}
+
+/* #endregion about section */
+
+
+
+
+/* #region yachts section */
+
+.yachts {
+    padding-top: 300px;
+    display: block;
+    /* padding: 0px; */
+       
+      
+}
+
+.yachts_title {
+    /* padding-top: 150px; */
+    width: 714px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    letter-spacing: -0.96px;
+}
+.yachts_flex {
+    padding: 0;
+    width: 1240px;
+    display: flex;
+    gap: 32px;
+    /* background-color: antiquewhite; */
+    margin: 75px;
+}
+.yachts_card {
+    width: 392px;
+    height: 508px;
+    border: #0470e2 solid 1px;
+    background: #FBFBFB;
+     border-radius: 24px;
+
+}
+.item_img {
+    padding-top: 16px;
+    border-radius: 24px;
+    padding-left: 16px;
+
+}
+.item_flex_title {
+    width: 360px;
+    height: 19px;
+   display: flex;
+   align-items: center; 
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.item_title {
+    color: #1b414b;;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.96px;    
+    padding-left: 32px;
+    
+}
+.item_subtitle {
+    color: #989899;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+    padding-right: 7px;
+   
+}
+.yacht-card__specs {
+     display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    margin: 0;
+}
+.specs_row {
+    width: 360px;
+    height: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    }
+.specs_row dt{
+    padding-left: 32px;
+    width:  72px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #989899;    
+        }
+.specs_row dd{
+    white-space: nowrap;
+    width: 96px;
+}
+
+.item_hr{
+    width: 328px;
+    height: 1px;
+    background-color:rgba(4, 3, 6, 0.1);
+    margin-bottom: 16px;
+    
+}
+/* btn */
+
+.yachts_btn{
+    display: block;
+    margin-top: 60px;
+
+    background-color: #0E1823;
+    padding: 16px 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+    color: #FBFBFB;
+}
+.yachts_btn:hover{
+    background-color: #FBFBFB;
+    color: #0E1823;
+    transition: 0.6s;
+}
+/* #endregion yachts section */
+
+/* #region water activity section */
+
+
+.water_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 150px;
+}
+.water_flex_text {
+    background-color: #1B414B;
+    width: 768px;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 32px;
+}
+.water_flex_text_item h2{
+
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 32px */
+    letter-spacing: -1.6px;
+}
+.water_flex_text_item hr{
+    background: rgba(251, 251, 251, 0.10);
+    border-radius: 18px;
+
+    width: 318px;
+    margin-left: -0;
+  
+}
+.water_flex_text_item p{
+    color: #CED6D8;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 14.95px */
+    letter-spacing: -0.26px;;
+}  
+
+.water_flex_image_item img{
+    width: 540px;
+    height: 424px;
+}
+
+/* #endregion water activity section */
+
+/* #region contact section */
+.contact {
+}
+.container {
+}
+.contact_flex {
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.contact_flex_items {
+    display: flex;
+    flex-direction: column;
+}
+.contact_title {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    letter-spacing: -0.96px;
+    margin-top: 0px;
+    width: 381px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contact_form input{
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    background: #0E1823;
+    width: 472px;
+    height: 54px;
+
+    
+}
+/* style text input */
+.contact_form input::placeholder{
+    color: rgba(251, 251, 251, 0.40);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 18px;
+}
+
+.contact_form input:hover{
+    border: 1px solid rgba(251, 251, 251, 0.50);
+}
+.contact_form input:hover::placeholder {
+  color: #FBFBFB;
+}
+
+.contact_form input:focus-visible::placeholder {
+  color: #FBFBFB;
+}
+.contact_form input {
+  color: #FBFBFB;
+  padding-left: 18px;
+}
+ #comment{
+      height: 116px;
+}
+
+ 
+/* Comment input */
+
+
+/*  button */
+.form_button{
+    margin-top: 32px;
+    width: 194px;
+    padding: 18px 75px;
+
+    border-radius: 15px;
+    background: #1B414B;
+    border: none;
+    color: #FBFBFB;
+
+    /* style tekst  */
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+}
+.form_button:hover{
+    background: #FBFBFB;
+    color: #1B414B;
+    transition: 0.7s;
+}
+/*  button */
+
+
+.visually-hidden {
+}
+
+
+/* forms */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+}
+/* #endregion contact section */
+
+/* #region Revies section */
+
+.revies {
+    justify-content: center;
+}
+
+.revies_title {
+    padding-top: 152px;
+
+    width: 854px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    letter-spacing: -0.96px;
+}
+.revies_text {
+    padding-top: 25px;
+    color: #6C7279;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 571px;
+}
+
+.revies_flex_items {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin-top: 75px;
+}
+.revies_cart {
+    padding: 32px 36px;
+
+    width: 320px;
+    height: 218px;
+    border-radius: 24px;
+    background: #FBFBFB;
+    text-align: center;
+    align-items: center;
+}
+
+.revies_cart_name {
+    margin: 0;
+    padding-top: 24px;
+    color: #040306;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+}
+.revies_cart_items {
+    margin: 0;
+    padding-top: 8px;
+    width: 320px;
+
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.32px;
+}
+
+/* #endregion Revies section */
+
+/* #region Footer section */
+
+.footer{
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 24px 24px 0 0;
+    background: #1B414B;
+    margin-top: 150px;
+}
+.titele_footer{
+    color: #FBFBFB  ;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    padding-left: 30px;
+}
+.list_iteams_footer a{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:  #5E7980;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #FBFBFB;
+    text-decoration: none;
+}
+.list_iteams_footer a:hover{
+    background: #FBFBFB;
+    color: #040306;
+    transition: 0.7s;
+}
+
+.footer_flex_nav{
+    padding: 50px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 375px;
+}
+
+.list_social_footer{
+    display: flex;
+    gap: 8px;
+    padding-right: 30px;
+}
+.list_social_footer svg:hover{
+    background: #FBFBFBCC;
+    border-radius: 10px;
+
+    transition: 0.7s;
+    width: 19px;
+    height: 19px;
+}
+
+.footer_title{
+    margin: 0;
+    padding-top: 96px;
+    padding-bottom: 99px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+    width: 699px;
+}
+.footer_flex{
+
+}
+.footer_polite_text{
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgba(251, 251, 251, 0.40);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 16.52px */
+    letter-spacing: 0.42px;
+}
+.footer_polite_text:nth-child(1){
+    padding-right: 32px;
+}
+/* #endregion Footer section */
